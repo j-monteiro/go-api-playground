@@ -13,7 +13,7 @@
 *.dylib
 
 # Test binary, built with `go test -c`
-*.test
+tests/*.test
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
@@ -24,4 +24,8 @@
 # Go workspace file
 go.work
 
-# End of https://www.toptal.com/developers/gitignore/api/go
+# Dot env file
+.env
+
+# Code editor
+.vscode
